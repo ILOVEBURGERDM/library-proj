@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library Project</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="title">MY LIBRARY</h1>
+      <button class="new-btn">New Book</button>
+    </div>
+    <dialog id="form-dialog">
+      <div class="form-container">
+        <form>
+          <div class="top-section">
+            <h1 id="new-form">New Form</h1>
+            <button id="cancel-button">X</button>
+          </div>
+          <div class="book-title">
+            <h3>Title</h3>
+            <input
+              type="text"
+              id="input-title"
+              placeholder="e.g., Game of Thrones"
+            />
+          </div>
+          <div class="book-author">
+            <h3>Author</h3>
+            <input
+              type="text"
+              id="input-author"
+              placeholder="e.g., Stephen King"
+            />
+          </div>
+          <div class="book-pages">
+            <h3>Number of Pages</h3>
+            <input type="number" id="input-number" />
+          </div>
+          <div class="book-read">
+            <input type="checkbox" id="readToggle" value="yes" />
+            <h4>Read</h4>
+          </div>
+          <button id="submit-btn">Submit</button>
+        </form>
+      </div>
+    </dialog>
+
+    <div class="books">
+      <div class="book-item">
+        <h2 class="book-name">IT</h2>
+        <p>by Stephen King</p>
+        <h3><strong>456 pages</strong></h3>
+        <p class="book-id">
+          <strong>ID: </strong>fafb210a-6e54-469b-8e26-25f0a3597d8c
+        </p>
+        <button class="read-btn">Read</button>
+      </div>
+
+      <div class="book-item">
+        <h2 class="book-name">Lord of the Rings</h2>
+        <p>by JRR. TOlkein</p>
+        <h3><strong>1216 pages</strong></h3>
+        <p class="book-id">
+          <strong>ID: </strong>7cf00e05-7b9a-448e-a766-cc2667d7882d
+        </p>
+        <button class="read-btn">Read</button>
+      </div>
+
+      <div class="book-item">
+        <h2 class="book-name">Game of Thrones</h2>
+        <p>by George R.R Martin</p>
+        <h3><strong>694 pages</strong></h3>
+        <p class="book-id">
+          <strong>ID: </strong>5bab8114-31a4-4535-99b2-474c28923dbd
+        </p>
+        <button class="read-btn">Read</button>
+      </div>
+    </div>
+  </body>
+</html>

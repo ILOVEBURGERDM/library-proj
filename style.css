@@ -1,0 +1,101 @@
+/*UNIVERSAL STYLES*/
+h1 {
+  justify-self: center;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin: 0px;
+}
+
+p {
+  margin: 0px;
+}
+
+h3 {
+  margin: 0px;
+}
+
+h4 {
+  margin: 0px;
+}
+
+/*HEADER STYLES*/
+.header {
+  display: grid;
+  justify-self: center;
+  width: 300px;
+  justify-items: center;
+  justify-content: center;
+}
+
+.new-btn {
+  width: 100px;
+  height: 30px;
+  justify-content: center;
+}
+
+/*LIBRARY ITEM STYLES*/
+.books {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  gap: 5px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.book-item {
+  display: grid;
+  border: 2px solid black;
+  width: 175px;
+  justify-content: center;
+  justify-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.book-id {
+  text-align: center;
+}
+
+.book-name {
+  text-align: center;
+}
+
+/*READ TOOGLE BUTTON*/
+.read-btn {
+  width: 100px;
+  height: 30px;
+  background-color: greenyellow;
+}
+
+.read-btn.off {
+  background-color: red;
+}
+
+/*FORM SECTION*/
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.top-section {
+  display: grid;
+  grid-template-columns: 175px 25px;
+  height: 40px;
+}
+
+.book-read {
+  display: grid;
+  grid-template-columns: 20px 20px;
+}
+
+#new-form {
+  justify-self: left;
+  margin-bottom: 0px;
+}
+
+#cancel-button {
+  height: 25px;
+}
